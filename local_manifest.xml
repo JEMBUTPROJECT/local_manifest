@@ -7,11 +7,11 @@
       <remote name="nexus"
           fetch="https://github.com/projects-nexus" />
 
-      <!-- <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" /> -->
+      <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
-      <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
+     <!-- <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" /> -->
      
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="yaap-12" />
       

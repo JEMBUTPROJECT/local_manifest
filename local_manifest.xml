@@ -11,7 +11,7 @@
       
   <project path="vendor/xiaomi/lavender" name="Vt" remote="jm" revision="thirteen" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_A13-4.4" remote="jm" revision="WhyFu-EAS-QTI" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_A13-4.4" remote="jm" revision="KNTL-EAS-QTI" />
       
  <!-- <project path="prebuilts/clang/host/linux-x86/nexus-clang" name="nexus-clang" remote="clang" clone-depth="1" revision="nexus-14" /> -->
       

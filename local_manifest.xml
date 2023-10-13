@@ -4,14 +4,17 @@
       <remote name="jm"
           fetch="ssh://git@github.com/JEMBUTPROJECT" />
 
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />
+
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />       
      
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="afterlife-13" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="bnn" />
       
   <project path="vendor/xiaomi/lavender" name="Vt" remote="jm" revision="thirteen" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_A13-4.4" remote="jm" revision="Knull" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="13-NKSU" />
       
  <!-- <project path="prebuilts/clang/host/linux-x86/nexus-clang" name="nexus-clang" remote="clang" clone-depth="1" revision="nexus-14" /> -->
       

@@ -4,26 +4,15 @@
       <remote name="jm"
           fetch="ssh://git@github.com/JEMBUTPROJECT" />
 
-      <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />       
+      <remote name="km"
+          fetch="ssh://git@github.com/mrmdkernel" />
      
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="derp-13" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="LocalTweak" />
       
-  <project path="vendor/xiaomi/lavender" name="Vt" remote="jm" revision="thirteen" />
+  <project path="vendor/xiaomi/lavender" name="Vt" remote="jm" revision="thirteen-mod" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_A13-4.4" remote="jm" revision="WhyFu-EAS-QTI" />
+  <project path="kernel/xiaomi/lavender" name="LCK_xiaomi_lavender" remote="km" revision="13-NKSU" />
       
  <!-- <project path="prebuilts/clang/host/linux-x86/nexus-clang" name="nexus-clang" remote="clang" clone-depth="1" revision="nexus-14" /> -->
-      
-    <!-- Replacements -->
-   
-  <remove-project name="hardware_qcom_display" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
-      
-  <remove-project name="hardware_qcom_audio" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
-
-  <remove-project name="hardware_qcom_media" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />      
       
 </manifest>

@@ -2,10 +2,10 @@
 <manifest>
 
       <remote name="jm"
-          fetch="ssh://git@github.com/JEMBUTPROJECT" />
+          fetch="https://github.com/JEMBUTPROJECT" />
 
       <remote name="km"
-          fetch="ssh://git@github.com/mrmdkernel" />
+          fetch="https://github.com/mrmdkernel" />
      
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="jm" revision="LocalTweak" />
       
